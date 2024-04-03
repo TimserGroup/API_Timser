@@ -1,0 +1,115 @@
+/* app.css */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Estilos del formulario */
+body {
+  background-image: url(https://timsergroup.com/assets/img/shape/hero-shape-01.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #424744;
+  color: #fffeed;
+  font-family: 'Taviraj', serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+header > p.thx {
+  font-size: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#name,
+#email,
+#number,
+#comment {
+  justify-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 15px;
+  border-style: none;
+  margin-bottom: 15px;
+}
+
+#dropdown,
+#submit {
+  width: 100%;
+  height: 40px;
+  border-radius: 15px;
+  border-style: none;
+}
+
+form {
+  background-color: #c8e0e6;
+  opacity: 0.6;
+  border-radius: 15px;
+  color: #4e4f4f;
+  padding: 35px;
+}
+
+fieldset {
+  border-style: none;
+}
+
+button {
+  background-color: #d1edcc;
+  font-family: 'Taviraj', serif;
+  font-size: 20px;
+  color: #4e4f4f;
+}
+
+button:hover {
+  background-color: #aed1a7;
+  font-family: 'Taviraj', serif;
+  font-size: 20px;
+  color: #4e4f4f;
+}
